@@ -1,5 +1,15 @@
 <script setup></script>
 
-<template></template>
+<template>
+  <h1>teste <span>test</span></h1>
+</template>
 
-<style scoped></style>
+<style scoped lang="scss">
+h1 {
+  color: red;
+
+  span {
+    color: $secondary;
+  }
+}
+</style>
