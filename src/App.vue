@@ -1,15 +1,9 @@
-<script setup></script>
+<script setup>
+import Header from "./components/Header.vue";
+</script>
 
 <template>
-  <h1>teste <span>test</span></h1>
+  <Header />
 </template>
 
-<style scoped lang="scss">
-h1 {
-  color: red;
-
-  span {
-    color: $secondary;
-  }
-}
-</style>
+<style></style>
