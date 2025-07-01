@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import Button from "./button.vue";
+</script>
 
 <template>
   <header>
@@ -24,11 +26,7 @@
             >
           </li>
         </ul>
-        <button
-          class="bg-(--color-primary) text-sm duration-200 ease-in hover:opacity-75 hover:cursor-pointer py-2 px-8 rounded-3xl"
-        >
-          Baixar o App
-        </button>
+        <Button btnText="Baixar o App" />
       </nav>
     </div>
   </header>
@@ -37,5 +35,8 @@
 <style scoped>
 button {
   color: #fff;
+}
+header {
+  font-family: "poppins", sans-serif;
 }
 </style>
