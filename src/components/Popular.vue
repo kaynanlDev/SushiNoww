@@ -37,7 +37,7 @@ const popularFood = [
           :src="food.image"
           alt="comida popular"
         />
-        <h3 class="font-p1 text-2xl">{{ food.name }}</h3>
+        <h3 class="font-p1 text-2xl mt-4">{{ food.name }}</h3>
         <p class="text-center font-s2 text-base py-6">{{ food.description }}</p>
         <p class="price font-p1 text-xl">R${{ food.price }}</p>
       </div>

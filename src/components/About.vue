@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div class="container grid grid-cols-2 items-center gap-8">
+  <div class="container grid grid-cols-2 items-center gap-10">
     <div class="about-img">
       <img
         class="h-full pt-30"
