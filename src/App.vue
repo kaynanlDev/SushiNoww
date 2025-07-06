@@ -16,6 +16,13 @@ import Footer from "./components/Footer.vue";
     <Comments />
   </main>
   <Footer />
+  <p class="w-full text-xs text-center pb-1">
+    &copy;Todos os direitos reservados -
+    <a
+      class="hover:underline"
+      target="_blank"
+      href="https://github.com/kaynanlDev"
+      >KaynanDev</a
+    >
+  </p>
 </template>
-
-<style></style>

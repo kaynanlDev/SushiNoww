@@ -3,10 +3,10 @@
   <div
     class="container flex justify-center border-b-1 border-b-(--color-dark-20)"
   >
-    <div class="w-3/5 flex justify-between">
+    <div class="w-3/4 flex justify-between">
       <nav class="mt-30">
         <ul>
-          <li><a href="#">Produto</a></li>
+          <h4 class="text-base mb-1">Produto</h4>
           <li><a href="#">Todos</a></li>
           <li><a href="#">Sushi</a></li>
           <li><a href="#">Premium</a></li>
@@ -14,7 +14,7 @@
       </nav>
       <nav class="mt-30">
         <ul>
-          <li><a href="#">Informações</a></li>
+          <h4 class="text-base mb-1">Informações</h4>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Suporte</a></li>
@@ -22,7 +22,7 @@
       </nav>
       <nav class="mt-30">
         <ul>
-          <li><a href="#">Empresa</a></li>
+          <h4 class="text-base mb-1">Empresa</h4>
           <li><a href="#">Sobre nós</a></li>
           <li><a href="#">Local</a></li>
           <li><a href="#">Contato</a></li>
@@ -30,7 +30,7 @@
       </nav>
       <nav class="mt-30">
         <ul>
-          <li><a href="#">Social</a></li>
+          <h4 class="text-base mb-1">Social</h4>
           <li><a href="#">Facebook</a></li>
           <li><a href="#">Instagram</a></li>
           <li><a href="#">Twitter</a></li>
@@ -40,8 +40,15 @@
   </div>
 </template>
 <style scoped>
+h4 {
+  font-family: "Koh Santepheap", serif;
+}
 a {
   font-family: "poppins", sans-serif;
   font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+a:hover {
+  opacity: 0.8;
 }
 </style>
