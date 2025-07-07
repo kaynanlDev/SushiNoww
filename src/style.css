@@ -4,6 +4,9 @@
 * {
   color: #232323;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   max-width: 1200px;
   width: 100%;
@@ -12,6 +15,7 @@
 }
 
 @theme {
+  --animate-menu: menuWidth 1s ease-in-out;
   --font-p1: "Koh Santepheap", serif;
   --font-s2: "Poppins", sans-serif;
 
@@ -19,4 +23,13 @@
   --color-dark-10: #232323;
   --color-dark-20: #f8f5f2;
   --color-dark-30: #ffffff;
+
+  @keyframes menuWidth {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 60%;
+    }
+  }
 }
