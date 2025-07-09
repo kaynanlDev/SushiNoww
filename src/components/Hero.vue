@@ -17,7 +17,7 @@ import Button from "./Button.vue";
     </div>
     <div class="hero-img flex items-center justify-center">
       <img
-        class="w-[60%] lg:w-3/5 h-full"
+        class="w-[60%] lg:w-3/5 h-full md:h-3/5"
         src="../assets/sushi-hero.png"
         alt="sushi hero"
       />
