@@ -26,9 +26,9 @@ const popularFood = [
 <template>
   <div class="container">
     <h2 class="text-5xl font-p1 text-center mb-27 mt-30">Populares</h2>
-    <div class="grid grid-cols-3 gap-6 justify-center">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-6 justify-center">
       <div
-        class="flex items-center justify-center flex-col bg-(--color-dark-20) rounded-2xl p-6"
+        class="w-3/4 md:w-auto my-0 mx-auto flex items-center justify-center flex-col bg-(--color-dark-20) rounded-2xl p-6"
         v-for="food in popularFood"
         :key="food.id"
       >
@@ -37,7 +37,7 @@ const popularFood = [
           :src="food.image"
           alt="comida popular"
         />
-        <h3 class="font-p1 text-2xl mt-4">{{ food.name }}</h3>
+        <h3 class="font-p1 text-2xl mt-4 text-center">{{ food.name }}</h3>
         <p class="text-center font-s2 text-base py-6">{{ food.description }}</p>
         <p class="price font-p1 text-xl">R${{ food.price }}</p>
       </div>
