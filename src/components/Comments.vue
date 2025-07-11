@@ -20,9 +20,9 @@ const CommentsCard = [
 <template>
   <div class="container flex items-center justify-center flex-col">
     <h2 class="text-5xl font-p1 text-center mt-30 mb-20">Comentários</h2>
-    <div class="flex justify-center gap-6 max-w-3/4">
+    <div class="flex flex-col md:flex-row justify-center gap-6 max-w-3/4">
       <div
-        class="w-120 flex justify-center flex-col rounded-2xl p-6 bg-(--color-dark-20)"
+        class="w-3/3 md:w-120 flex justify-center flex-col rounded-2xl p-6 bg-(--color-dark-20)"
         v-for="comment in CommentsCard"
         :key="comment.key"
       >
