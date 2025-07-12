@@ -6,9 +6,7 @@ import Button from "./Button.vue";
     <div
       class="hero-text flex flex-col items-center md:items-start md:justify-center mb-12"
     >
-      <h1 data-aos="fade-up" data-aos-duration="3000" class="text-5xl font-p1">
-        Comida Oriental
-      </h1>
+      <h1 class="text-5xl font-p1">Comida Oriental</h1>
       <p
         class="font-s2 text-base text-center md:text-start max-w-3/4 mt-[18px] mb-12"
       >
