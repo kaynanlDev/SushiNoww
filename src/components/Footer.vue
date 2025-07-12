@@ -3,6 +3,7 @@ import NavFooter from "./NavFooter.vue";
 </script>
 <template>
   <NavFooter />
+
   <div class="container flex justify-between">
     <div class="logo">
       <img src="../assets/sushi.svg" alt="logo do Sushinow" />
