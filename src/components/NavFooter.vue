@@ -3,7 +3,7 @@
   <div
     class="container flex justify-center border-b-1 border-b-(--color-dark-20)"
   >
-    <div class="w-3/4 flex md:flex-row justify-between">
+    <div class="w-3/4 flex gap-6 sm:gap-0 md:flex-row justify-between">
       <nav class="mt-6 md:mt-30">
         <ul>
           <h4 class="text-base mb-1">Produto</h4>

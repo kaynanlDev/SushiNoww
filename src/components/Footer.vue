@@ -4,7 +4,9 @@ import NavFooter from "./NavFooter.vue";
 <template>
   <NavFooter />
 
-  <div class="container flex justify-between">
+  <div
+    class="container flex flex-col sm:flex-row gap-6 sm:gap-0 justify-between"
+  >
     <div class="logo">
       <img src="../assets/sushi.svg" alt="logo do Sushinow" />
     </div>
